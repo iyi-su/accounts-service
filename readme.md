@@ -1,3 +1,2 @@
-# microservice-skeleton
+# accounts-service
 
-A skeleton repository for new microservices.
