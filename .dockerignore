@@ -1,0 +1,6 @@
+.github
+.gitignore
+.git
+.npmrc
+.graphqlconfig
+dockerfile

@@ -1,0 +1,17 @@
+{
+  "name": "@iyi-su/accounts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "service.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ."
+  },
+  "type": "module",
+  "dependencies": {
+    "@iyi-su/microservice": "0.0.5"
+  },
+  "files": [
+    "service.js"
+  ]
+}
