@@ -1,0 +1,28 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: https://npm.pkg.github.com/
+      - run: yarn install --frozen-lockfile
+        working-directory: client
+      - run: yarn build
+        working-directory: client
+      - run: yarn version --no-git-tag-version --no-commit-hooks --new-version ${{ github.ref_name}}
+        working-directory: client
+      - run: yarn publish
+        working-directory: client
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

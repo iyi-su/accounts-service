@@ -1,0 +1,21 @@
+{
+  "name": "@iyi-su/account-client",
+  "version": "0.0.0",
+  "main": "client.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ."
+  },
+  "files": [
+    "client.js",
+    "client.ts"
+  ],
+  "dependencies": {
+    "@iyi-su/client": "^0.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
