@@ -18,4 +18,18 @@ class AccountsClient extends Client<AccountsClient> {
         `, {id});
     }
 
+    public async getByEmail(email: string): Promise<Account> {
+        return this.request<Account, { email: string }>(gql`
+            query getByEmailQuery($email: String!) {
+                getByEmail(email: $email) {
+                    id
+                    name
+                    email
+                    password
+                    avatar
+                }
+            }
+        `, {email});
+    }
+
 }
