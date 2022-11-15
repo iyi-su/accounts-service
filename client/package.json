@@ -13,7 +13,8 @@
     "client.ts"
   ],
   "dependencies": {
-    "@iyi-su/client": "^0.0.2"
+    "@iyi-su/client": "^0.0.2",
+    "graphql": "^16.6.0"
   },
   "devDependencies": {
     "@types/graphql": "^14.5.0",
