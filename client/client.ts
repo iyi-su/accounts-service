@@ -19,6 +19,3 @@ class AccountsClient extends Client<AccountsClient> {
     }
 
 }
-
-const client = AccountsClient.create<AccountsClient>("http://localhost:4000");
-client.getById("636e11f29006c5c30e61fb27").then(console.log).catch(console.error);
