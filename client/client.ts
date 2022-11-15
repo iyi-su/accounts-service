@@ -1,5 +1,4 @@
 import {Client} from "@iyi-su/client";
-import {DocumentNode} from "graphql";
 import {gql} from "@apollo/client/core";
 import type {Account} from "../types/resolvers";
 
