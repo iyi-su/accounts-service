@@ -1,6 +1,6 @@
 import {Client} from "@iyi-su/client";
 import {gql} from "@apollo/client/core";
-import type {Account} from "../types/resolvers";
+import type {Account} from "@iyi-su/accounts-types/resolvers";
 
 class AccountsClient extends Client<AccountsClient> {
 

@@ -1,6 +1,6 @@
 import {start, logger} from "@iyi-su/microservice";
 import {connect, Error, model, Schema} from "mongoose";
-import {Context} from "./context";
+import {Context} from "./types/context";
 import {
     Account,
     Maybe,
