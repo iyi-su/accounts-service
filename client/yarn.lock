@@ -29,10 +29,10 @@
 "@iyi-su/accounts-types@../types":
   version "0.0.0"
 
-"@iyi-su/client@^0.0.2":
-  version "0.0.2"
-  resolved "https://npm.pkg.github.com/download/@iyi-su/client/0.0.2/35680610aff781c2f2ebedf7f720f6c5baf1e1bc#35680610aff781c2f2ebedf7f720f6c5baf1e1bc"
-  integrity sha512-fKt77dJoGIpuF1G9Ehx/M+wrnscJ7x+gxbylxN13cFbW2IQNc/FnpmBUTrTYoKqZpHHlUtlkWpT2JRXRkeMskg==
+"@iyi-su/client@^0.0.3":
+  version "0.0.3"
+  resolved "https://npm.pkg.github.com/download/@iyi-su/client/0.0.3/638c8e8a3d4063c882b484388eecefd0b9cd7f5d#638c8e8a3d4063c882b484388eecefd0b9cd7f5d"
+  integrity sha512-OoXWD9JEGsHt7QzmlACc6txWkANpA1kr97n/6Fmr4aYlfCfEABILIZAqQKKlnC5HZu58OX9MiNJEo1rmcN/FNw==
   dependencies:
     "@apollo/client" "^3.7.1"
     graphql "^16.6.0"
