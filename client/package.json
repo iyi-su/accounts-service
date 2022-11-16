@@ -1,5 +1,5 @@
 {
-  "name": "@iyi-su/account-client",
+  "name": "@iyi-su/accounts-client",
   "version": "0.0.0",
   "main": "client.js",
   "license": "MIT",
