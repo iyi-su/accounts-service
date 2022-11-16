@@ -4,6 +4,8 @@ import type {Account, CreateAccount} from "@iyi-su/accounts-types/resolvers";
 
 export class AccountsClient extends Client<AccountsClient> {
 
+    protected static override envVar:string = "ACCOUNTS_CLIENT_ADDRESS";
+
     public async getById(id: string): Promise<Account> {
         type getById = {
             getById: Account;
